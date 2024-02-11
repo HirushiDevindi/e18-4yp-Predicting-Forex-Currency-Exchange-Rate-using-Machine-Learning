@@ -13,13 +13,13 @@ title:
 
 #### Team
 
-- E/18/375, Vindula K.P.A., [e18375@eng.pdn.ac.lk]
-- E/18/330, Sewwandi H.R., [email](mailto:e18330@eng.pdn.ac.lk)
-- E/18/323, Seekkubadu H.D., [email](mailto:e18323@eng.pdn.ac.lk)
+- E/18/375, Vindula K.P.A., e18375@eng.pdn.ac.lk
+- E/18/330, Sewwandi H.R., e18330@eng.pdn.ac.lk
+- E/18/323, Seekkubadu H.D., e18323@eng.pdn.ac.lk
 
 #### Supervisors
 
-- Dr. Suneth Namal Karunarathna, [email](mailto:namal@eng.pdn.ac.lk)
+- Dr. Suneth Namal Karunarathna, namal@eng.pdn.ac.lk
 
 
 #### Table of content
