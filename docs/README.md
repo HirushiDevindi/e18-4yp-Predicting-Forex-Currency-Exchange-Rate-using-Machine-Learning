@@ -11,6 +11,11 @@ title:
 
 # Predicting Forex Currency Exchange Rate using Machine Learning
 
+<p align="center">
+  <img src="./images/image0.jpg">
+  <br>
+</p>
+
 #### Team
 
 - E/18/375, Vindula K.P.A., [e18375@eng.pdn.ac.lk](mailto:e18375@eng.pdn.ac.lk)
@@ -54,10 +59,17 @@ This research explores the potential of machine learning techniques in predictin
 #### Forex Market
 
 <p align="center">
-  <img src="./images/forex.jpg" alt="Forex Market">
+  <img src="./images/image2.png">
   <br>
-  <em>Figure 1.1: Forex Market</em>
+  <em>Figure 1.1:  OHLC prices in Forex market </em>
 </p>
+
+<p align="center">
+  <img src="./images/image1.png">
+  <br>
+  <em>Figure 1.2:  Uptrend and Downtrend in Forex market </em>
+</p>
+
 
 
 <p style="text-align: justify;">
