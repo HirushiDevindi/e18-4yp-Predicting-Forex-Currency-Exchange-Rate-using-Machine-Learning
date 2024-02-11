@@ -9,18 +9,18 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Predicting Forex Currency Exchange Rate using Machine Learning
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/18/375, Vindula K.P.A., [email](mailto:e18375@eng.pdn.ac.lk)
+- E/18/330, Sewwandi H.R., [email](mailto:e18330@eng.pdn.ac.lk)
+- E/18/323, Seekkubadu H.D., [email](mailto:e18323@eng.pdn.ac.lk)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Suneth Namal Karunarathna, [email](mailto:namal@eng.pdn.ac.lk)
+
 
 #### Table of content
 
