@@ -43,6 +43,11 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 
 ## Abstract
+![Forex Market](./images/forex.jpeg)
+
+This research explores the potential of machine learning techniques in predicting forex currency exchange rates by leveraging a comprehensive set of technical and fundamental economic indicators. Recognizing the complexity and volatility of the foreign exchange market, our study seeks to develop a robust predictive model by integrating advanced machine learning algorithms. We aim to navigate the complexity of the foreign exchange market by identifying the most influential features through meticulous feature selection and designing novel architectures, refining our model’s performance through parameter optimization. The study anticipates contributing to a more accurate understanding of the factors driving forex market dynamics, yielding a reliable predictive model with potential applications for traders, investors, corporations, and policymakers.
+
+
 
 ## Related works
 
