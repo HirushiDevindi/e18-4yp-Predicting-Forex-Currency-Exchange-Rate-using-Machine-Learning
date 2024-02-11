@@ -1,4 +1,4 @@
-![image](https://github.com/cepdnaclk/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning/assets/73634341/08c23186-148b-4201-98ac-92195192b184)---
+---
 layout: home
 permalink: index.html
 
