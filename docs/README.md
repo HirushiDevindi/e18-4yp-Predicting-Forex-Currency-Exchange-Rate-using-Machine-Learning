@@ -50,9 +50,13 @@ This research explores the potential of machine learning techniques in predictin
 
 ##  Introduction 
 
- ### Forex Market
- ![Forex Market](./images/forex.jpg)
- *Figure 1.1 Forex Market*
+ #### Forex Market
+
+<figure>
+  <img src="./images/forex.jpg" alt="Forex Market">
+  <figcaption><em>Figure 1.1: Forex Market</em></figcaption>
+</figure>
+
 
 <p style="text-align: justify;">
 The forex market, also known as the foreign exchange market, is a global platform where participants engage in the buying and selling of currencies. It stands as the largest and most liquid financial market globally, with its daily trading volume exceeding $6 trillion. What distinguishes forex trading is its accessibility and constant activity, operating 24 hours a day, five days a week across different time zones. One of the key features of the forex market is its high liquidity, which means that traders can easily buy and sell currencies without significantly affecting their prices. This liquidity is driven by the participation of various entities, including central banks, financial institutions, corporations, governments, and individual traders. The forex market offers a wide range of currency pairs for trading, including major pairs like EUR/USD, GBP/USD, and USD/JPY, as well as minor and exotic pairs. These pairs create diverse market structures based on the combinations of currencies involved. For instance, while major pairs involve the world's strongest currencies, minor and exotic pairs may involve currencies from emerging or smaller economies.
