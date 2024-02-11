@@ -50,12 +50,13 @@ This research explores the potential of machine learning techniques in predictin
 
 ##  Introduction 
 
- #### Forex Market
+#### Forex Market
 
-<figure>
+<p align="center">
   <img src="./images/forex.jpg" alt="Forex Market">
-  <figcaption><em>Figure 1.1: Forex Market</em></figcaption>
-</figure>
+  <br>
+  <em>Figure 1.1: Forex Market</em>
+</p>
 
 
 <p style="text-align: justify;">
