@@ -1,4 +1,4 @@
----
+![image](https://github.com/cepdnaclk/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning/assets/73634341/08c23186-148b-4201-98ac-92195192b184)---
 layout: home
 permalink: index.html
 
@@ -25,7 +25,7 @@ title:
 #### Table of content
 
 1. [Abstract](#abstract)
-2. [Introduction](#Introduction)
+2. [Introduction](#introduction)
 3. [Related works](#related-works)
 4. [Methodology](#methodology)
 5. [Experiment Setup and Implementation](#experiment-setup-and-implementation)
@@ -49,7 +49,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 This research explores the potential of machine learning techniques in predicting forex currency exchange rates by leveraging a comprehensive set of technical and fundamental economic indicators. Recognizing the complexity and volatility of the foreign exchange market, our study seeks to develop a robust predictive model by integrating advanced machine learning algorithms. We aim to navigate the complexity of the foreign exchange market by identifying the most influential features through meticulous feature selection and designing novel architectures, refining our model’s performance through parameter optimization. The study anticipates contributing to a more accurate understanding of the factors driving forex market dynamics, yielding a reliable predictive model with potential applications for traders, investors, corporations, and policymakers.
 </p>
 
-##  Introduction 
+## Introduction 
 
 #### Forex Market
 
@@ -94,8 +94,8 @@ In recent years, advancements in technology, particularly in the field of machin
 
 [//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
 
-- [Project Repository](https://github.com/cepdnaclk/repository-name)
-- [Project Page](https://cepdnaclk.github.io/repository-name)
+- [Project Repository](https://github.com/cepdnaclk/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning)
+- [Project Page](https://cepdnaclk.github.io/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
