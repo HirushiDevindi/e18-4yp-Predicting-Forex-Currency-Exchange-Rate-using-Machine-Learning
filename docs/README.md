@@ -43,11 +43,20 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 
 ## Abstract
-![Forex Market](./images/forex.jpg)
+
 
 This research explores the potential of machine learning techniques in predicting forex currency exchange rates by leveraging a comprehensive set of technical and fundamental economic indicators. Recognizing the complexity and volatility of the foreign exchange market, our study seeks to develop a robust predictive model by integrating advanced machine learning algorithms. We aim to navigate the complexity of the foreign exchange market by identifying the most influential features through meticulous feature selection and designing novel architectures, refining our model’s performance through parameter optimization. The study anticipates contributing to a more accurate understanding of the factors driving forex market dynamics, yielding a reliable predictive model with potential applications for traders, investors, corporations, and policymakers.
 
+##  Introduction 
+ # Forex Market
+ ![Forex Market](./images/forex.jpg)
+ Figure 1.1 Forex Market
 
+The forex market, also known as the foreign exchange market, is a global platform where participants engage in the buying and selling of currencies. It stands as the largest and most liquid financial market globally, with its daily trading volume exceeding $6 trillion. What distinguishes forex trading is its accessibility and constant activity, operating 24 hours a day, five days a week across different time zones. One of the key features of the forex market is its high liquidity, which means that traders can easily buy and sell currencies without significantly affecting their prices. This liquidity is driven by the participation of various entities, including central banks, financial institutions, corporations, governments, and individual traders. The forex market offers a wide range of currency pairs for trading, including major pairs like EUR/USD, GBP/USD, and USD/JPY, as well as minor and exotic pairs. These pairs create diverse market structures based on the combinations of currencies involved. For instance, while major pairs involve the world's strongest currencies, minor and exotic pairs may involve currencies from emerging or smaller economies.
+
+Traders analyze the forex market using various techniques, including fundamental analysis, technical analysis, and sentiment analysis. Fundamental analysis involves evaluating economic indicators, central bank policies, geopolitical events, and other factors that influence currency values. Technical analysis, on the other hand, relies on chart patterns, trend lines, and technical indicators to forecast price movements. Sentiment analysis gauges market sentiment and investor mood through factors such as news sentiment, social media activity, and trader positioning. OHLC (Open, High, Low, Close) prices are widely used in forex analysis, providing comprehensive information about price movements within specific time frames. These price data help traders identify trends, reversals, support and resistance levels, and other key trading opportunities.
+
+In recent years, advancements in technology, particularly in the field of machine learning, have enabled traders to develop sophisticated trading algorithms and models. These algorithms analyze vast amounts of historical and real-time data to identify patterns and trends, automate trading decisions, and manage risks more effectively. Overall, the forex market's dynamic nature, high liquidity, and accessibility make it a popular choice for traders seeking opportunities to profit from fluctuations in currency values around the world.
 
 ## Related works
 
