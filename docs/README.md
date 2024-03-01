@@ -191,7 +191,7 @@ These questions lie at the heart of our investigation, driving us to refine and 
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
- 1. [Semester 7 report](https://github.com/cepdnaclk/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning/blob/main/docs/files/Semester%207%20Slides.pdf)
+ 1. [Semester 7 report](./files/Semester%207%20Slides.pdf){:target="_blank"}
 <!-- 2. [Semester 7 slides](./) -->
 <!-- 3. [Semester 8 report](./) -->
 <!-- 4. [Semester 8 slides](./) -->
