@@ -98,36 +98,36 @@ Key Models Explored:
 ####  Convolutional Neural Networks (CNN)
 
 <p align="center">
-  <img src="./images/cnn.jpg">
+  <img src="./images/cnn.png">
   <br>
   <em>Figure 2.1:  CNN Architecture </em>
 </p>
 
 <p style="text-align: justify;">
-A convolutional neural network (CNN) is a type of deep learning neural network that is specifically designed for image recognition and classification tasks. CNNs are inspired by the structure of the human visual cortex, and they have been shown to be highly effective in a wide range of applications, including image classification, object detection, and facial recognition. The key characteristic of a CNN is its use of convolutional layers, which are made up of small filters (or kernels) that are applied to the input image. These filters extract features from the image, such as edges, lines, and corners. The output of the convolutional layer is then passed through a pooling layer, which reduces the dimensionality of the data and helps to make the network more robust to small variations in the input image. After the convolutional and pooling layers, the CNN typically has one or more fully connected layers, which are similar to the layers found in traditional neural networks. The fully connected layers are used to classify the input image into one or more categories.
+A convolutional neural network (CNN) is a type of deep learning neural network that is specifically designed for image recognition and classification tasks. CNNs are inspired by the structure of the human visual cortex, and they are highly effective in a wide range of applications, including image classification, object detection, and facial recognition. The key characteristic of a CNN is its use of convolutional layers, which are made up of small filters (or kernels) that are applied to the input image. These filters extract features from the image, such as edges, lines, and corners. The output of the convolutional layer is then passed through a pooling layer, which reduces the dimensionality of the data and helps to make the network more robust to small variations in the input image. After the convolutional and pooling layers, the CNN typically has one or more fully connected layers, which are similar to the layers found in traditional neural networks. The fully connected layers classify the input image into one or more categories.
 </p>
 <p style="text-align: justify;">
-For an example, one of the research carried out under the CNN to make the prediction is mentioned here. In the pursuit of accurate financial time series forecasting, researchers Alexiei Dingli and Karl Sant Fournier xie propose a novel deep learning approach leveraging Convolutional Neural Networks (CNNs). Their study, titled "Financial Time Series Forecasting – A Deep Learning Approach," introduces a CNN-based model developed using TensorFlow, fine-tuned for optimal performance. The model incorporates two convolutional and pooling layers, employing same padding with a stride of 1 and ReLU activation functions for feature extraction. By harnessing the TensorFlow library's Argmax function, the researchers calculate accuracy while fine-tuning network parameters such as depth, learning rate, receptive area size, and feature count for each convolutional layer. Notably, their model achieves a commendable accuracy of 65% in forecasting the next month's price direction and 60% for predicting the next week's price direction, highlighting the effectiveness of deep learning methodologies in financial forecasting.
+For example, one of the research carried out under CNN to make the prediction is mentioned here. In the pursuit of accurate financial time series forecasting, researchers Alexiei Dingli and Karl Sant Fournier xie propose a novel deep learning approach leveraging Convolutional Neural Networks (CNNs). Their study, titled "Financial Time Series Forecasting – A Deep Learning Approach," introduces a CNN-based model developed using TensorFlow, fine-tuned for optimal performance. The model incorporates two convolutional and pooling layers, employing the same padding with a stride of 1 and ReLU activation functions for feature extraction. By harnessing the TensorFlow library's Argmax function, the researchers calculate accuracy while fine-tuning network parameters such as depth, learning rate, receptive area size, and feature count for each convolutional layer. Notably, their model achieves a commendable accuracy of 65% in forecasting the next month's price direction and 60% for predicting the next week's price direction, highlighting the effectiveness of deep learning methodologies in financial forecasting.
 </p>
 
 ####  Recurrent Neural Networks (RNN)
 
 <p align="center">
-  <img src="./images/rnn.jpg">
+  <img src="./images/rnn.png">
   <br>
   <em>Figure 2.2:  RNN Architecture </em>
 </p>
 
 <p style="text-align: justify;">
-RNNs are designed for sequential data processing. It includes feedback loops and feed the output signal of a neuron back into the neuron. This way, information from previous time steps is preserved as hidden state (ℎ terms). The objective of training a neural network is to minimize the value of a loss function, which represents the cumulative difference between the model’s outputs and the true labels. 
+RNNs are designed for sequential data processing. It includes feedback loops and feeds the output signal of a neuron back into the neuron. This way, information from previous time steps is preserved as the hidden state (ℎ terms). The objective of training a neural network is to minimize the value of a loss function, which represents the cumulative difference between the model’s outputs and the true labels. 
 </p>
 
 <p style="text-align: justify;">
-In a study titled "Using Recurrent Neural Networks To Forecasting of Forex," researchers focused on training Recurrent Neural Networks (RNNs) to predict exchange rates between the American Dollar and four other major currencies: Japanese Yen, Swiss Franc, British Pound, and Euro. Employing the Elman-Jordan neural network method, they discovered that the most effective network configuration incorporated two crucial indicators: moving average and returns as inputs. To enhance accuracy, they replaced the moving average with exponential moving average, which better approximates time series data and encapsulates information from longer time periods. Their findings suggest that RNNs can predict the sign of increments in Forex rates with a high probability of approximately 80%, demonstrating practical viability for Forex forecasting applications.
+In a study titled "Using Recurrent Neural Networks To Forecasting of Forex," researchers focused on training Recurrent Neural Networks (RNNs) to predict exchange rates between the American Dollar and four other major currencies: Japanese Yen, Swiss Franc, British Pound, and Euro. Employing the Elman-Jordan neural network method, they discovered that the most effective network configuration incorporated two crucial indicators: moving average and returns as inputs. To enhance accuracy, they replaced the moving average with the exponential moving average, which better approximates time series data and encapsulates information from longer periods. Their findings suggest that RNNs can predict the sign of increments in Forex rates with a high probability of approximately 80%, demonstrating practical viability for Forex forecasting applications.
 </p>
 
 <p style="text-align: justify;">
-In Recurrent Neural Networks (RNNs) often use activation functions such as the hyperbolic tangent (tanh) or the logistic sigmoid (σ). The derivative of both lies in the interval [0, 1]. Because of that two significant problems often arise during training,  gradient exploding and gradient vanishing. 
+Recurrent Neural Networks (RNNs) often use activation functions such as the hyperbolic tangent (tanh) or the logistic sigmoid (σ). The derivative of both lies in the interval [0, 1]. Because of that two significant problems often arise during training,  gradient exploding and gradient vanishing. 
 </p>
 
   - Gradient Exploding:
@@ -149,7 +149,7 @@ To address these challenges, various techniques have been proposed, including gr
 ####  Long Short-Term Memory (LSTM)
 
 <p align="center">
-  <img src="./images/lstm.jpg">
+  <img src="./images/lstm.png">
   <br>
   <em>Figure 2.3:  LSTM Architecture </em>
 </p>
