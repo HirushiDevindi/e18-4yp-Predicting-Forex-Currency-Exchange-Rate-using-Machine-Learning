@@ -191,8 +191,8 @@ These questions lie at the heart of our investigation, driving us to refine and 
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
- 1. [Semester 7 slides](./files/Semester%207%20Slides.pdf){:target="_blank"}
-<!-- 2. [Semester 7 report](./) -->
+ 1. [Semester 7 Slides](./files/Semester%207%20Slides.pdf){:target="_blank"}
+ 2. [Semester 7 Report](./files/Semester%207%20Report.pdf){:target="_blank"}
 <!-- 3. [Semester 8 report](./) -->
 <!-- 4. [Semester 8 slides](./) -->
 <!-- 5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./). -->
