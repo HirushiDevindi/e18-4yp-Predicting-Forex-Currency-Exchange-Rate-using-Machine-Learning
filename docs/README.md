@@ -214,15 +214,52 @@ The second method we employed was Bayesian optimization, a sophisticated approac
 
 ## Experiment Setup and Implementation
 
-## Results and Analysis
+<p style="text-align: justify;">
+  For hyperparameter optimization, we utilized two methods: GridSearchCV and Bayesian optimization. GridSearchCV involved providing a range of values for parameters such as EPOCHS, LSTM units, and learning rate, and systematically iterating through these combinations to identify the optimal configuration that minimized the loss (Mean Square Error). Bayesian optimization, on the other hand, employed probabilistic models to efficiently explore the hyperparameter space. By focusing on minimizing the product of the training loss and validation loss, Bayesian optimization helped us identify a set of parameters that effectively captured data patterns without overfitting.
+</p>
+<p style="text-align: justify;">
+  We trained the models using two different input parameter sets: one with 9 technical indicators and another with 11 technical indicators derived from OHLC values. This allowed us to compare the performance and effectiveness of the models based on different feature sets, providing a comprehensive understanding of the impact of the number of indicators on the model's predictive accuracy.
+</p>
+
+##  Results and Analysis
+
+<p align="center">
+  <img src="./images/Results1.png">
+  <br>
+  <em>Figure 5.1:  Results for hyperparameters obtained from Grid Search CV method </em>
+</p>
+
+<p align="center">
+  <img src="./images/Results2.png">
+  <br>
+  <em>Figure 5.2:  Results from hyperparameters obtained from Bayesian method </em>
+</p>
+
+<p align="center">
+  <img src="./images/EURUSD.png">
+  <br>
+  <em>Figure 5.3:  Performance of EUR/USD model </em>
+</p>
+
+<p align="center">
+  <img src="./images/LKRUSD.png">
+  <br>
+  <em>Figure 5.4:  Performance of LKR/USD model </em>
+</p>
+
+<p align="center">
+  <img src="./images/GBPUSD.png">
+  <br>
+  <em>Figure 5.3:  Performance of GBP/USD model </em>
+</p>
 
 ## Conclusion
 
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
- 1. [Semester 7 Slides](./files/Semester%207%20Slides.pdf){:target="_blank"}
- 2. [Semester 7 Report](./files/Semester%207%20Report.pdf){:target="_blank"}
+ 1. [Semester 7 Slides](./files/Semester%207%20Slides.pdf)
+ 2. [Semester 7 Report](./files/Semester%207%20Report.pdf)
 <!-- 3. [Semester 8 report](./) -->
 <!-- 4. [Semester 8 slides](./) -->
 <!-- 5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./). -->
