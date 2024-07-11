@@ -165,22 +165,52 @@ In the investigation titled "Using Long Short-Term Memory To Forecasting of Fore
 
 ## Methodology
 
-#### Proposed Work
 <p style="text-align: justify;">
-In our exploration of forecasting Forex currency exchange rates, we've observed various approaches employed by researchers, among which the LSTM model has consistently demonstrated superior performance. Building upon this promising foundation, our research endeavors to enhance the LSTM model's predictive capabilities.
-</p>
-<p style="text-align: justify;">
-We aim to address several key insights: 
+We utilized historical data sourced from Yahoo! Finance. The dataset was split into three parts: 80% for training the model, 10% for validation, and 10% for testing. Feature selection focused on 11 technical indicators derived from the OHLC (Open, High, Low, Close) values of the currency pair. These indicators help in capturing market trends and price movements. We trained the model using two different combinations of technical indicators: one set with 9 indicators and another with all 11 indicators. This approach allowed us to compare the performance of the models and assess the impact of the number of indicators on predictive accuracy, ultimately helping to identify the most effective feature set for forecasting forex exchange rates.
 </p>
 
-  1. Can major trends in price fluctuations of a currency pair be predicted in advance?
-  2. Can the start point of these fluctuations be predicted with acceptable accuracy?
-  3. Can the end point of these fluctuations also be forecasted with acceptable accuracy?
+###  Selected Technical Indicators
 
-<p style="text-align: justify;">
-These questions lie at the heart of our investigation, driving us to refine and innovate within the realm of Forex prediction, with the ultimate goal of providing more reliable insights for traders and investors.
+By considering the previous 5 days as a period, we are taking
+
+- Close value of today
+- Close value of yesterday
+- Close value of the day before yesterday
+- Close value of two days before yesterday
+- Close  value of three days before yesterday
+
+The following are the additional technical indicators:
+
+- The simple moving average for 5 days for the High values
+- The simple moving average for 5 days for the Low values
+- The exponential moving average for 5 days for the Close value
+- RSI - for Close value for 14 days time period
+- The Moving Average Convergence Divergence (MACD)
+- Price Rate of Change Indicator (ROC)
+
+###  Model Architecture
+
+<p align="center">
+  <img src="./images/model.png">
+  <br>
+  <em>Figure 3.1:  Model Architecture </em>
 </p>
 
+<p style="text-align: justify;">
+We created a sequential model with an LSTM layer followed by three dense layers. Through our evaluation, we identified LSTMs as the best performing model compared to CNNs and RNNs. LSTMs are preferred for time series prediction due to their ability to maintain and utilize long-term dependencies and handle time-dependent data effectively. Adding too many dense layers can lead to overfitting, where the model learns the training data too well but fails to generalize to new, unseen data. By using three dense layers, the model strikes a balance between learning complex patterns and avoiding overfitting. Networks using ReLU activation tend to converge faster during training compared to those using other activation functions.
+</p>
+<p style="text-align: justify;">
+To optimize the model, we fine-tuned several parameters, including the number of LSTM units, the learning rate, and the evaluation frequency, to find the best-performing configuration. For training, we used mean square error (MSE) as the loss function, which measures the average of the squares of the errors—that is, the difference between the predicted and actual values. Additionally, we employed mean absolute error (MAE) as another performance metric to assess the model's accuracy, which measures the average magnitude of errors in a set of predictions, without considering their direction. This dual approach allowed us to gain a comprehensive understanding of the model's performance and ensure it effectively predicts forex exchange rates.
+</p>
+
+###  Hyperparameter Tuning
+
+<p style="text-align: justify;">
+  The first method we used for hyperparameter tuning was GridSearchCV. This approach involves providing a range of values for ephocs, LSTM units, and learning rate, and then iterating through these combinations to identify the one that minimizes the loss (Mean Square Error). The range of values was determined based on our intuitions and prior knowledge about the model, allowing us to systematically explore different configurations.
+</p>
+<p style="text-align: justify;">
+The second method we employed was Bayesian optimization, a sophisticated approach that leverages probabilistic models to efficiently explore the hyperparameter space. Unlike GridSearchCV, which performs an exhaustive search, Bayesian optimization uses past evaluation results to build a probabilistic model of the objective function. In our case, we used Bayesian optimization to minimize the product of the training loss and the validation loss. This strategy aimed to find the best set of parameters that could effectively capture the underlying patterns in the data without overfitting to the training set. By balancing the training and validation losses, we ensured that the model generalized well to new, unseen data, leading to more robust and reliable predictions.
+</p>
 
 ## Experiment Setup and Implementation
 
